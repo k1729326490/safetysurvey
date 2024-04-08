@@ -16,6 +16,15 @@ export default function () {
             {
                 type: "radiogroup",
                 name: "question2",
+                title: "Which of the following is a primary responsibility of a lifeguard??",
+                choices: [
+                    "Selling snacks at the poolside", "Checking pool water pH levels", " Enforcing safety rules and regulations", "Providing swimming lessons"
+                ],
+                correctAnswer: " Enforcing safety rules and regulations"
+            },
+            {
+                type: "radiogroup",
+                name: "question2",
                 title: "How much sunscreen should you apply?",
                 choices: [
                     "teaspoon", "tablespoon", "quart", "gallon"
