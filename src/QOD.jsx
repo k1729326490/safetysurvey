@@ -22,9 +22,63 @@ export default function () {
                 ],
                 correctAnswer: " Enforcing safety rules and regulations"
             },
+             {
+                type: "radiogroup",
+                name: "question3",
+                title: "What is the recommended action if someone is drowning in a pool?",
+                choices: [
+                    "Jump into the water immediately", "Call out for other swimmers to help", " Throw a flotation device to the person", "Ignore the situation and continue observing"
+                ],
+                correctAnswer: " Throw a flotation device to the person"
+            },
             {
                 type: "radiogroup",
-                name: "question2",
+                name: "question4",
+                title: "What should a lifeguard do if they suspect a swimmer has a spinal injury?",
+                choices: [
+                    "Assist the swimmer to the edge of the pool", "Pull the swimmer out of the water immediately", "Perform CPR on the swimmer", " Leave the swimmer in the water until medical professionals arrive"
+                ],
+                correctAnswer: "Pull the swimmer out of the water immediately"
+            },
+            {
+                type: "radiogroup",
+                name: "question5",
+                title: "What is the purpose of regular lifeguard training sessions?",
+                choices: [
+                    "To learn how to perform advanced water acrobatics", "To improve physical fitness for personal health benefits", "To maintain and enhance lifeguard skills and knowledge", "To socialize and network with other lifeguards"
+                ],
+                correctAnswer: "To maintain and enhance lifeguard skills and knowledge"
+            },
+            {
+                type: "radiogroup",
+                name: "question6",
+                title: "When should lifeguards typically conduct safety inspections of the swimming pool?",
+                choices: [
+                    "Only when there are no swimmers present", "At the end of their shift", "Throughout their shift at regular intervals", "Once a week on weekends"
+                ],
+                correctAnswer: "Throughout their shift at regular intervals"
+            },
+            {
+                type: "radiogroup",
+                name: "question7",
+                title: "What is an essential item for a lifeguard to have on duty?",
+                choices: [
+                    "Sunglasses for personal style", "Sunscreen for personal protection", "Snacks for personal consumption", "Swim fins for personal training"
+                ],
+                correctAnswer: "Sunscreen for personal protection"
+            },
+            {
+                type: "radiogroup",
+                name: "question9",
+                title: "What is an essential item for a lifeguard to have on duty?",
+                choices: [
+                    "Sunglasses for personal style", "Sunscreen for personal protection", "Snacks for personal consumption", "Swim fins for personal training"
+                ],
+                correctAnswer: "Sunscreen for personal protection"
+            },
+            {
+                type: "radiogroup",
+                name: "question10",
                 title: "How much sunscreen should you apply?",
                 choices: [
                     "teaspoon", "tablespoon", "quart", "gallon"
