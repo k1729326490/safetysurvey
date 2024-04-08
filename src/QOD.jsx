@@ -69,6 +69,15 @@ export default function () {
             },
             {
                 type: "radiogroup",
+                name: "question8",
+                title: "What should a lifeguard prioritize during an emergency rescue situation?",
+                choices: [
+                    "Taking photographs for documentation", "Administering first aid to injured bystanders", "Ensuring personal safety before assisting others", "Directing other bystanders to help without direct involvement"
+                ],
+                correctAnswer: "Ensuring personal safety before assisting others"
+            },
+            {
+                type: "radiogroup",
                 name: "question9",
                 title: "What is an essential item for a lifeguard to have on duty?",
                 choices: [
